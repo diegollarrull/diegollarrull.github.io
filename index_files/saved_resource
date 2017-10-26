@@ -1,0 +1,10 @@
+if (window['google'] != undefined && window['google']['loader'] != undefined) {
+if (!window['google']['visualization']) {
+window['google']['visualization'] = {};
+google.visualization.Version = '1.1';
+google.visualization.JSHash = 'cc5d8333ad9d2dca8ea31ac15ed4e2df';
+google.visualization.LoadArgs = 'file\x3dvisualization\x26v\x3d1.1\x26packages\x3dannotatedtimeline%2Ccalendar%2Ccorechart%2Cgauge%2Cgeochart%2Cgeomap%2Cintensitymap%2Cmap%2Cmotionchart%2Corgchart%2Csankey%2Ctable%2Ctimeline%2Ctreemap';
+}
+google.loader.writeLoadTag("css", google.loader.ServiceBase + "/api/visualization/1.1/cc5d8333ad9d2dca8ea31ac15ed4e2df/ui+es_419,table+es_419.css", false);
+google.loader.writeLoadTag("script", google.loader.ServiceBase + "/api/visualization/1.1/cc5d8333ad9d2dca8ea31ac15ed4e2df/d3,d3sankey,dygraph,webfontloader,format+es_419,default+es_419,ui+es_419,timeline+es_419,geomap+es_419,treemap+es_419,calendar+es_419,map+es_419,geochart+es_419,sankey+es_419,intensitymap+es_419,table+es_419,orgchart+es_419,motionchart+es_419,gauge+es_419,annotatedtimeline+es_419,corechart+es_419.I.js", false);
+}
